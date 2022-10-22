@@ -179,3 +179,48 @@ padding-bottom: 50px;
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Main */
+
+main{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h2{
+    font-family: 'Poppins';
+    color: #011A42;
+}
+
+.sunioweb{
+    color: white;
+    background-color: #0349C2;
+    padding: 3px;
+    border-radius: 6px;
+}
+
+.introducao{
+    color: #011A42;
+    font-family: 'Open Sans';
+}
+
+.texto_sobre{
+    font-family: 'Open Sans';
+}
+
+hr{
+    background-color: #011A42;
+    height: 10px;
+}
