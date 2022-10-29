@@ -197,13 +197,17 @@ padding-bottom: 50px;
 /* Main */
 
 main{
+    background-color: antiquewhite;
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 0;
+    padding-top: 20px;
 }
 
 h2{
     font-family: 'Poppins';
     color: #011A42;
+    margin-top: 0;
 }
 
 .sunioweb{
