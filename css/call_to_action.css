@@ -1,0 +1,127 @@
+/* Call to Action */
+
+
+.call-to-action{
+    background-color: #0349C2;
+    margin-top: 0;
+    padding-bottom: 50px;
+    }
+    
+    .call-to-action h1{
+        margin-top: 0;
+        color: white;
+        font-family: 'Poppins';
+        font-weight: bold;
+        /* font-size: clamp(20px, 3vw, 34px); */
+        font-size: clamp(26px, 3vw, 34px);
+        text-align: center;
+    }
+    
+    .call-to-action .conteudo{
+        display: flex;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .lista-um, .lista-dois{
+        color: white;
+        font-family: 'Open Sans';
+        font-weight: 900;
+        display: flex;
+        gap: 30px;
+        font-size: clamp(12px, 0.9vw, 15px);
+        padding-left: 15px;
+        justify-content: center;
+    
+    }
+    
+    
+    .button-orcamento{
+        background-color: #011A42;
+        border: #011A42;
+        width: 180px;
+        height: 55px;
+        margin-top: 20px;
+        border-radius: 9px;
+    
+    }
+    
+    .button-orcamento:hover{
+        transform: scale(1.02);
+    
+    }
+    
+    .button-orcamento a{
+        text-decoration: none;
+        color: white;
+        font-family: 'Open Sans';
+        font-weight: bolder;
+        font-size: 16px;
+    
+    }
+    
+    .imagem-principal{
+        display: none;
+    }
+    
+    .imagem-principal-mobile{
+        display: block;
+        max-width: 190px;
+    }
+    
+    .flex-mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    @media screen and (min-width: 960px){
+        .imagem-principal{
+            display: block;
+        }
+    
+        .imagem-principal-mobile{
+            display: none;
+        }
+    
+        .lista-um, .lista-dois{
+            color: white;
+            font-family: 'Open Sans';
+            font-weight: 900;
+            display: flex;
+            gap: 30px;
+            font-size: clamp(16px, 2vw, 19px);
+            padding-left: 80px;
+            justify-content: flex-start;
+    
+        
+        }
+    
+        .flex-mobile{
+            display: block;
+            padding-left: 65px;
+          
+        }
+    
+        .call-to-action h1{
+            margin-top: 0;
+            color: white;
+            font-family: 'Poppins';
+            font-weight: bold;
+            /* font-size: clamp(20px, 3vw, 34px); */
+            font-size: clamp(26px, 3vw, 34px);
+            text-align: left;
+            padding-left: 70px;
+        }
+    
+        .conteudo{
+            align-items: center;
+        }
+    
+        .hr{
+           padding: 0px 80px 0px 70px;
+           width: 90%;
+        }
+    
+    
+    }

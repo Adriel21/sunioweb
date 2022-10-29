@@ -1,0 +1,90 @@
+/* Início do header */
+header{
+    /* padding-left: 80px;
+    padding-right: 80px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #0349C2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+ 
+
+.ul_nav{
+    font-size: 18px;
+    list-style: none;
+    font-family: 'Poppins';
+    display: none; 
+
+}
+
+.ul_nav li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.ul_nav li:hover{
+    transform: scale(1.05);
+
+}
+
+
+
+.icone {
+    font-size: 18px;
+    display: inline-block; /*Sempre que quise dar altura para o elemento e ele não for um elemento, devemos usar display: block ou inline block;*/
+    color: white;
+    text-decoration: none;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.menu a {
+    /* color: black; */
+    font-weight: bold;
+    /* background-color: white; */
+    background-color: #0349C2;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+
+    /*Esta classe será MANIPULADA via JS*/
+    .menu-aberto{
+        display: block;
+        position: absolute;
+        right: 0;
+        left: 0;
+        width: 100%;
+        padding-left: 0;
+    }
+
+    @media screen and (min-width: 960px){
+        header{
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+
+        .icone {
+            display: none;
+        }
+
+        .ul_nav{
+            display: flex;
+            gap: 60px;
+        
+        }
+
+        .menu-aberto{
+            display: none;
+        }
+    }
+
+/* Fim do header */

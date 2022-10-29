@@ -1,0 +1,96 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Main */
+
+main{
+    background-color: antiquewhite;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+.titulo_conteudo{
+    font-family: 'Poppins';
+    color: #011A42;
+    margin-top: 50px;
+    font-size: 26px;
+}
+
+.sunioweb{
+    color: white;
+    background-color: #0349C2;
+    padding: 3px;
+    border-radius: 6px;
+}
+
+.introducao{
+    color: #011A42;
+    font-family: 'Open Sans';
+}
+
+.texto_sobre{
+    font-family: 'Open Sans';
+}
+
+hr{
+    background-color: #011A42;
+    height: 10px;
+}
+
+.texto_servico{
+    font-family: 'Open Sans';
+}
+
+@media screen and (min-width: 780px) {
+
+
+   main .titulo_conteudo, .introducao, .texto_sobre{
+    padding-left: 70px;
+    max-width: 1100px;
+   }
+
+   .servicos{
+    width: 89%;
+    margin: 0 auto;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 50px;
+   }
+
+   .servicos div{
+    background-color: #fff;
+    /* border: 2px solid black; */
+    box-shadow: 2px 3px 4px;
+    text-align: left;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 50%;  
+ }
+
+   .servicos h3{
+    padding-left: 15px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #011A42;
+   }
+
+    .texto_servico{
+        padding: 0px 15px 0px 15px;
+    }
+}
