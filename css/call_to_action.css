@@ -87,7 +87,7 @@
         .lista-um, .lista-dois{
             color: white;
             font-family: 'Open Sans';
-            font-weight: 900;
+            font-weight: 600;
             display: flex;
             gap: 30px;
             font-size: clamp(16px, 2vw, 19px);

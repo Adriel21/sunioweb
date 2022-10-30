@@ -54,9 +54,40 @@ hr{
     height: 10px;
 }
 
+
+.servicos div{
+    background-color: #fff;
+    /* border: 2px solid black; */
+    box-shadow: 2px 3px 4px;
+    text-align: left;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;  
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+ }
+
+ .servicos h3{
+    padding-left: 15px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #011A42;
+   }
+
+.servicos div span{
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    padding-left: 10px;
+}
+
 .texto_servico{
     font-family: 'Open Sans';
 }
+
+.texto_servico{
+    padding: 0px 15px 0px 15px;
+}
+
 
 @media screen and (min-width: 780px) {
 
@@ -70,27 +101,16 @@ hr{
     width: 89%;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     gap: 15px;
     margin-bottom: 50px;
    }
 
+
    .servicos div{
-    background-color: #fff;
-    /* border: 2px solid black; */
-    box-shadow: 2px 3px 4px;
-    text-align: left;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    width: 50%;  
+    width: 49%;  
  }
+  
 
-   .servicos h3{
-    padding-left: 15px;
-    font-family: 'Poppins';
-    font-weight: 700;
-    color: #011A42;
-   }
-
-    .texto_servico{
-        padding: 0px 15px 0px 15px;
-    }
+    
 }
