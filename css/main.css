@@ -30,7 +30,7 @@ main{
     font-family: 'Poppins';
     color: #011A42;
     margin-top: 50px;
-    font-size: 26px;
+    font-size: 28px;
 }
 
 .sunioweb{
@@ -82,11 +82,20 @@ hr{
 
 .texto_servico{
     font-family: 'Open Sans';
-}
-
-.texto_servico{
     padding: 0px 15px 0px 15px;
 }
+
+
+    .button_servico{
+        background-color: #0349C2;
+        border: #0349C2;
+        width: 150px;
+        height: 40px;
+        border-radius: 7px;
+        margin-left: 15px;
+        color: white;
+        font-family: 'Poppins';
+    }
 
 
 @media screen and (min-width: 780px) {

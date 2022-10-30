@@ -8,6 +8,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
 }
 
 
@@ -40,12 +42,13 @@ header{
 
 
 .icone {
-    font-size: 18px;
+    font-size: 20px;
     display: inline-block; /*Sempre que quise dar altura para o elemento e ele não for um elemento, devemos usar display: block ou inline block;*/
     color: white;
     text-decoration: none;
     padding-top: 0;
     margin-top: 0;
+    font-size: 'Poppins';
 }
 
 .menu a {
