@@ -110,6 +110,51 @@ hr{
         background-color: rgba(3, 73, 194, 90%);
     }
 
+    .sobre div form{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .sobre label{
+        display: block;
+        font-family: 'Open Sans';
+        font-weight: 600;
+    }
+
+    .sobre input{
+        width: 100%;
+        max-width: 400px;
+        height: 30px;
+        border-radius: 5px;
+        border: #0349C2 2px solid;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    .sobre textarea{
+        width: 100%;
+        max-width: 400px;
+        border-radius: 5px;
+        border: #0349C2 2px solid;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    .sobre button{
+        background-color: #0349C2;
+        border: #0349C2;
+        width: 150px;
+        height: 40px;
+        border-radius: 7px;
+        color: white;
+        font-family: 'Poppins';
+    }
+
+    .sobre button:hover{
+        background-color: rgba(3, 73, 194, 90%);
+    }
+
 
 @media screen and (min-width: 780px) {
 
