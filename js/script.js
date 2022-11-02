@@ -6,9 +6,9 @@ botaoMenu.addEventListener('click', function(event) {
     menu.classList.toggle("menu-aberto");
 
     if (menu.classList.contains('menu-aberto') ){
-        botaoMenu.innerHTML = "Fechar &times;"; 
+        botaoMenu.innerHTML = "&times;"; 
     } else {
-        botaoMenu.innerHTML = "Menu &equiv;";
+        botaoMenu.innerHTML = "&equiv;";
         
     } 
 
