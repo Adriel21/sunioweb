@@ -42,7 +42,7 @@ header{
 
 
 .icone {
-    font-size: 36px;
+    font-size: 56px;
     display: inline-block; /*Sempre que quise dar altura para o elemento e ele não for um elemento, devemos usar display: block ou inline block;*/
     color: white;
     text-decoration: none;
