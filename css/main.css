@@ -110,6 +110,16 @@ hr{
         background-color: rgba(3, 73, 194, 90%);
     }
 
+.portfolio figcaption{
+    font-family: 'Poppins';
+    color: #011A42;
+    font-weight: 500;
+    }
+
+    .projetos{
+    border-radius: 10px;
+    }
+
     .sobre div form{
         width: 90%;
         margin: 0 auto;
@@ -178,6 +188,13 @@ hr{
 
    .servicos div{
     width: 49%;  
+ }
+
+ .portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: -30px;
  }
   
 
