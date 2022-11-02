@@ -110,6 +110,17 @@ hr{
         background-color: rgba(3, 73, 194, 90%);
     }
 
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio figure{
+    margin-bottom: 25px;
+}
+
 .portfolio figcaption{
     font-family: 'Poppins';
     color: #011A42;
@@ -191,9 +202,8 @@ hr{
  }
 
  .portfolio{
-    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
     gap: -30px;
  }
   
