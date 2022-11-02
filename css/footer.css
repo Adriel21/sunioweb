@@ -3,3 +3,16 @@
     right: 15px;
     bottom: 15px;
 }
+
+footer{
+    margin-top: 10px;
+    background-color: #0349C2;
+    margin-bottom: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+footer h3{
+    text-align: center;
+    color: white;
+}

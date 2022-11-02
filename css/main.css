@@ -106,6 +106,12 @@ hr{
         font-family: 'Poppins';
     }
 
+    .button_servico a{
+        color: white;
+        text-decoration: none;
+       
+    }
+
     .button_servico:hover{
         background-color: rgba(3, 73, 194, 90%);
     }
