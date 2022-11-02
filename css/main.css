@@ -182,6 +182,10 @@ hr{
         background-color: rgba(3, 73, 194, 90%);
     }
 
+    .button_form:hover{
+        cursor: pointer;
+    }
+
 
 @media screen and (min-width: 780px) {
 
